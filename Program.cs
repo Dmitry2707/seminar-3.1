@@ -1,11 +1,11 @@
-﻿int N = Convert.ToInt32(Console.ReadLine());
-int L = 1;
+﻿Console.WriteLine("write number N");
+int number = Convert.ToInt32(Console.ReadLine());
 
-
-
-while (L < N)
+if (number > 1)
 {
-   
-    Console.WriteLine(L + 1);
-    L += 2;
+    Console.WriteLine(number % 2); 
+}
+else
+{
+    Console.WriteLine("нечетное");
 }
