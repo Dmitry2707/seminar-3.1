@@ -1,11 +1,11 @@
-﻿Console.WriteLine("write number N");
-int number = Convert.ToInt32(Console.ReadLine());
+﻿Console.WriteLine("write numberA");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("write numberB");
+int numberB = Convert.ToInt32(Console.ReadLine());
 
-if (number > 1)
+if (numberA < numberB)
 {
-    Console.WriteLine(number % 2); 
-}
-else
-{
-    Console.WriteLine("нечетное");
+    Console.WriteLine("numberA = min"); 
+    Console.WriteLine("numberB = max");
+
 }
